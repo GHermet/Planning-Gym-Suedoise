@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:orientation="vertical">
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/pb_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:max="100"
+        android:progress="70" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_weight="2.5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="TODO"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <GridView
+            android:id="@+id/grid_todo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:choiceMode="singleChoice"
+            android:clipToPadding="false"
+            android:drawSelectorOnTop="true"
+            android:fastScrollAlwaysVisible="false"
+            android:fastScrollEnabled="false"
+            android:horizontalSpacing="4dp"
+            android:numColumns="2"
+            android:padding="4dp"
+            android:verticalSpacing="4dp">
+        </GridView>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_weight="3.75"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="IN PROGRESS"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <ListView
+            android:id="@+id/list_in_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:drawSelectorOnTop="true"
+            android:padding="4dp">
+        </ListView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_weight="3.75"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="DONE"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <ListView
+            android:id="@+id/list_done"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:drawSelectorOnTop="true"
+            android:padding="4dp">
+        </ListView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+</LinearLayout>

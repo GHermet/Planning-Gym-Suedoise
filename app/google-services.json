@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994720333035",
+    "firebase_url": "https://gymsuedoisevisu1.firebaseio.com",
+    "project_id": "gymsuedoisevisu1",
+    "storage_bucket": "gymsuedoisevisu1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994720333035:android:770355e7a51f5ec7",
+        "android_client_info": {
+          "package_name": "com.hermax_lab.www.planninggymsuedoise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994720333035-snrg42t9d4d5toj03vuh7jfi8iqjejfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermax_lab.www.planninggymsuedoise",
+            "certificate_hash": "B47558460C530C8A1A0533CB95402B2EFE6FDFD2"
+          }
+        },
+        {
+          "client_id": "994720333035-vammu425iqda8pbt0oscr369f7u7cqjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmbB3LS3PAsUcWYu9jxmic-Mjn9ilKWjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994720333035-vammu425iqda8pbt0oscr369f7u7cqjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

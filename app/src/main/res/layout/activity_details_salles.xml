@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:contentPadding="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/iv_classroom_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/background1" />
+                    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/calendarView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="300dp"
+                        app:mcv_firstDayOfWeek="monday"
+                        app:mcv_selectionColor="@android:color/holo_blue_light"
+                        app:mcv_showOtherDates="all" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.alamkanak.weekview.WeekView
+                android:id="@+id/weekView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:columnGap="8dp"
+                app:dayBackgroundColor="#05000000"
+                app:dayNameLength="length_long"
+                app:eventCornerRadius="2dp"
+                app:eventTextColor="@color/colorWhite"
+                app:firstDayOfWeek="monday"
+                app:headerColumnBackground="#ffffffff"
+                app:headerColumnPadding="8dp"
+                app:headerColumnTextColor="#8f000000"
+                app:headerRowBackgroundColor="#ffefefef"
+                app:headerRowPadding="12dp"
+                app:horizontalFlingEnabled="false"
+                app:hourHeight="30dp"
+                app:noOfVisibleDays="7"
+                app:nowLineColor="@color/colorAccent"
+                app:nowLineThickness="1dp"
+                app:showDistinctWeekendColor="true"
+                app:showNowLine="true"
+                app:textSize="12sp"
+                app:todayBackgroundColor="#1848adff"
+                app:xScrollingSpeed="0" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

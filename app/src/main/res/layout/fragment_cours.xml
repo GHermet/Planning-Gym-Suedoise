@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:orientation="horizontal">
+    <GridView
+        android:id="@+id/grid_cours"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:drawSelectorOnTop="true"
+        android:fastScrollEnabled="true"
+        android:horizontalSpacing="4dp"
+        android:numColumns="4"
+        android:padding="4dp"
+        android:verticalSpacing="4dp">
+    </GridView>
+</LinearLayout>

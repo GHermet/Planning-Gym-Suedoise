@@ -1,0 +1,19 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_filters"
+        android:title="Filtres"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/paramètres"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout"
+        android:visible="true"/>
+</menu>

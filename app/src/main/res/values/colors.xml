@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorStandard_75">#F5A623</color>
+    <color name="colorRunning">#42d658</color>
+    <color name="colorModere">#120870</color>
+    <color name="colorJunior">#C146E8</color>
+    <color name="colorIntensif">#FF203B</color>
+    <color name="colorFlex">#40B6FF</color>
+    <color name="colorFamille">#7E5E8D</color>
+    <color name="colorDanceFit">#FFBF19</color>
+    <color name="colorCore">#8B2AE0</color>
+    <color name="colorClubbing">#032B58</color>
+    <color name="colorCardioPump">#F52525</color>
+    <color name="colorCircuit">#FFBD35</color>
+    <color name="colorCardioFlex">#FF213C</color>
+    <color name="colorBasic">#44D8F9</color>
+    <color name="colorStandard">#FFA20A</color>
+    
+
+    <color name="black_overlay">#66000000</color>
+</resources>
