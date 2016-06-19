@@ -1,3 +1,3 @@
-Projet de Visualisation Gym Suedoise
+*Projet de Visualisation Gym Suedoise*
 @author:
 Guillaume Hermet
