@@ -5,9 +5,6 @@ package com.hermax_lab.www.planninggymsuedoise.Enums;
  */
 public enum GSAPI {
 
-    REF("https://ws.gymsuedoise.com/api/V2/"),
-    KEY("XE2uG449BC");
-
 
     private String stringValue;
     GSAPI(String toString) {
